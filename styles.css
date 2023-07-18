@@ -226,6 +226,21 @@ main {
     padding-top: 50px;
 }
 
+/* footer part */
+footer {
+    height: 80px;
+    max-width: 1440px;
+    margin: 70px auto;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+
+.footer-text {
+    color:#424242;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 28px;
+}
 
 /* responsive media queries */
 /* mobile devices */
@@ -290,6 +305,12 @@ main {
     .sponsors-container {
         margin-top: 30px;
     }
+    footer {
+        margin: 10px auto;
+    }
+    .footer-text {
+        font-size: 0.7rem;
+    }
 }
 
 /* tablet or medium devices */
@@ -297,34 +318,40 @@ main {
 
     header,
     .feature-content,
-    .facts-container
-    {
-    padding: 50px;
-}
+    .facts-container {
+        padding: 50px;
+    }
 
-.teams-container,
-.features-container,
-.facts-box-container {
-    flex-direction: column;
-}
+    .teams-container,
+    .features-container,
+    .facts-box-container {
+        flex-direction: column;
+    }
 
-.facts-box-container {
-    gap: 20px;
-}
+    .facts-box-container {
+        gap: 20px;
+    }
 
-.features-container,
-.facts-container,
-.sponsors-container {
-    margin-top: 50px;
-}
+    .features-container,
+    .facts-container,
+    .sponsors-container {
+        margin-top: 50px;
+    }
 
-.sponsors-img-container {
-    padding-top: 20px;
-}
+    .sponsors-img-container {
+        padding-top: 20px;
+    }
 
-.sponsors-img-container {
-    max-width: 70%;
-    margin: 0 auto;
-    gap: 20px;
-}
+    .sponsors-img-container {
+        max-width: 70%;
+        margin: 0 auto;
+        gap: 20px;
+    }
+    footer {
+        margin: 20px auto;
+    }
+    .footer-text {
+        font-size: 0.9rem;
+    }
+
 }
